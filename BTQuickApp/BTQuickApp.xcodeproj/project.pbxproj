@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A60C2851DDD99400072FACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2841DDD99400072FACD /* main.m */; };
+		6A60C2881DDD99400072FACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2871DDD99400072FACD /* AppDelegate.m */; };
+		6A60C28E1DDD99400072FACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A60C28C1DDD99400072FACD /* Main.storyboard */; };
+		6A60C2901DDD99400072FACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A60C28F1DDD99400072FACD /* Assets.xcassets */; };
+		6A60C2931DDD99400072FACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A60C2911DDD99400072FACD /* LaunchScreen.storyboard */; };
+		6A60C29E1DDD99410072FACD /* BTQuickAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C29D1DDD99410072FACD /* BTQuickAppTests.m */; };
+		6A60C2A91DDD99410072FACD /* BTQuickAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2A81DDD99410072FACD /* BTQuickAppUITests.m */; };
+		6A60C2CC1DDDA8770072FACD /* DemoHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2CB1DDDA8770072FACD /* DemoHomeViewController.m */; };
+		6A60C2CF1DDDA88E0072FACD /* DemoSideMenuOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2CE1DDDA88E0072FACD /* DemoSideMenuOne.m */; };
+		6A60C2D21DDDA89D0072FACD /* DemoSideMenuTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2D11DDDA89D0072FACD /* DemoSideMenuTwo.m */; };
+		6A60C2D51DDDA8A90072FACD /* DemoSideMenuThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2D41DDDA8A90072FACD /* DemoSideMenuThree.m */; };
+		6A60C2D81DDDA8BF0072FACD /* DemoSideMenuFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2D71DDDA8BF0072FACD /* DemoSideMenuFour.m */; };
+		6A60C2E71DDDA9050072FACD /* BTQuickAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2DC1DDDA9050072FACD /* BTQuickAppController.m */; };
+		6A60C2E81DDDA9050072FACD /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2DF1DDDA9050072FACD /* LGSideMenuController.m */; };
+		6A60C2E91DDDA9050072FACD /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2E11DDDA9050072FACD /* UIViewController+LGSideMenuController.m */; };
+		6A60C2EA1DDDA9050072FACD /* LeftViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2E41DDDA9050072FACD /* LeftViewCell.m */; };
+		6A60C2EB1DDDA9050072FACD /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A60C2E61DDDA9050072FACD /* LeftViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A60C29A1DDD99410072FACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A60C2781DDD99400072FACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A60C27F1DDD99400072FACD;
+			remoteInfo = BTQuickApp;
+		};
+		6A60C2A51DDD99410072FACD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A60C2781DDD99400072FACD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A60C27F1DDD99400072FACD;
+			remoteInfo = BTQuickApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A60C2801DDD99400072FACD /* BTQuickApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTQuickApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A60C2841DDD99400072FACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A60C2861DDD99400072FACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6A60C2871DDD99400072FACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6A60C28D1DDD99400072FACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A60C28F1DDD99400072FACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A60C2921DDD99400072FACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A60C2941DDD99400072FACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A60C2991DDD99410072FACD /* BTQuickAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTQuickAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A60C29D1DDD99410072FACD /* BTQuickAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTQuickAppTests.m; sourceTree = "<group>"; };
+		6A60C29F1DDD99410072FACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A60C2A41DDD99410072FACD /* BTQuickAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTQuickAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A60C2A81DDD99410072FACD /* BTQuickAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTQuickAppUITests.m; sourceTree = "<group>"; };
+		6A60C2AA1DDD99410072FACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A60C2CA1DDDA8770072FACD /* DemoHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoHomeViewController.h; sourceTree = "<group>"; };
+		6A60C2CB1DDDA8770072FACD /* DemoHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoHomeViewController.m; sourceTree = "<group>"; };
+		6A60C2CD1DDDA88E0072FACD /* DemoSideMenuOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSideMenuOne.h; sourceTree = "<group>"; };
+		6A60C2CE1DDDA88E0072FACD /* DemoSideMenuOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSideMenuOne.m; sourceTree = "<group>"; };
+		6A60C2D01DDDA89D0072FACD /* DemoSideMenuTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSideMenuTwo.h; sourceTree = "<group>"; };
+		6A60C2D11DDDA89D0072FACD /* DemoSideMenuTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSideMenuTwo.m; sourceTree = "<group>"; };
+		6A60C2D31DDDA8A90072FACD /* DemoSideMenuThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSideMenuThree.h; sourceTree = "<group>"; };
+		6A60C2D41DDDA8A90072FACD /* DemoSideMenuThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSideMenuThree.m; sourceTree = "<group>"; };
+		6A60C2D61DDDA8BF0072FACD /* DemoSideMenuFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSideMenuFour.h; sourceTree = "<group>"; };
+		6A60C2D71DDDA8BF0072FACD /* DemoSideMenuFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSideMenuFour.m; sourceTree = "<group>"; };
+		6A60C2DA1DDDA9050072FACD /* BTQuickAppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTQuickAppConstant.h; sourceTree = "<group>"; };
+		6A60C2DB1DDDA9050072FACD /* BTQuickAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTQuickAppController.h; sourceTree = "<group>"; };
+		6A60C2DC1DDDA9050072FACD /* BTQuickAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTQuickAppController.m; sourceTree = "<group>"; };
+		6A60C2DE1DDDA9050072FACD /* LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuController.h; sourceTree = "<group>"; };
+		6A60C2DF1DDDA9050072FACD /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
+		6A60C2E01DDDA9050072FACD /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		6A60C2E11DDDA9050072FACD /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		6A60C2E31DDDA9050072FACD /* LeftViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewCell.h; sourceTree = "<group>"; };
+		6A60C2E41DDDA9050072FACD /* LeftViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewCell.m; sourceTree = "<group>"; };
+		6A60C2E51DDDA9050072FACD /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		6A60C2E61DDDA9050072FACD /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A60C27D1DDD99400072FACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A60C2961DDD99410072FACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A60C2A11DDD99410072FACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A60C2771DDD99400072FACD = {
+			isa = PBXGroup;
+			children = (
+				6A60C2D91DDDA9050072FACD /* BTQuickAppFiles */,
+				6A60C2821DDD99400072FACD /* BTQuickApp */,
+				6A60C29C1DDD99410072FACD /* BTQuickAppTests */,
+				6A60C2A71DDD99410072FACD /* BTQuickAppUITests */,
+				6A60C2811DDD99400072FACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A60C2811DDD99400072FACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2801DDD99400072FACD /* BTQuickApp.app */,
+				6A60C2991DDD99410072FACD /* BTQuickAppTests.xctest */,
+				6A60C2A41DDD99410072FACD /* BTQuickAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A60C2821DDD99400072FACD /* BTQuickApp */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2861DDD99400072FACD /* AppDelegate.h */,
+				6A60C2871DDD99400072FACD /* AppDelegate.m */,
+				6A60C28C1DDD99400072FACD /* Main.storyboard */,
+				6A60C28F1DDD99400072FACD /* Assets.xcassets */,
+				6A60C2911DDD99400072FACD /* LaunchScreen.storyboard */,
+				6A60C2941DDD99400072FACD /* Info.plist */,
+				6A60C2831DDD99400072FACD /* Supporting Files */,
+				6A60C2EC1DDDA9100072FACD /* DemoControllers */,
+			);
+			path = BTQuickApp;
+			sourceTree = "<group>";
+		};
+		6A60C2831DDD99400072FACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2841DDD99400072FACD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A60C29C1DDD99410072FACD /* BTQuickAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C29D1DDD99410072FACD /* BTQuickAppTests.m */,
+				6A60C29F1DDD99410072FACD /* Info.plist */,
+			);
+			path = BTQuickAppTests;
+			sourceTree = "<group>";
+		};
+		6A60C2A71DDD99410072FACD /* BTQuickAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2A81DDD99410072FACD /* BTQuickAppUITests.m */,
+				6A60C2AA1DDD99410072FACD /* Info.plist */,
+			);
+			path = BTQuickAppUITests;
+			sourceTree = "<group>";
+		};
+		6A60C2D91DDDA9050072FACD /* BTQuickAppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2DA1DDDA9050072FACD /* BTQuickAppConstant.h */,
+				6A60C2DB1DDDA9050072FACD /* BTQuickAppController.h */,
+				6A60C2DC1DDDA9050072FACD /* BTQuickAppController.m */,
+				6A60C2DD1DDDA9050072FACD /* LGSideMenuController */,
+				6A60C2E21DDDA9050072FACD /* SidePanel */,
+			);
+			name = BTQuickAppFiles;
+			path = BTQuickApp/BTQuickAppFiles;
+			sourceTree = "<group>";
+		};
+		6A60C2DD1DDDA9050072FACD /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2DE1DDDA9050072FACD /* LGSideMenuController.h */,
+				6A60C2DF1DDDA9050072FACD /* LGSideMenuController.m */,
+				6A60C2E01DDDA9050072FACD /* UIViewController+LGSideMenuController.h */,
+				6A60C2E11DDDA9050072FACD /* UIViewController+LGSideMenuController.m */,
+			);
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		6A60C2E21DDDA9050072FACD /* SidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2E31DDDA9050072FACD /* LeftViewCell.h */,
+				6A60C2E41DDDA9050072FACD /* LeftViewCell.m */,
+				6A60C2E51DDDA9050072FACD /* LeftViewController.h */,
+				6A60C2E61DDDA9050072FACD /* LeftViewController.m */,
+			);
+			path = SidePanel;
+			sourceTree = "<group>";
+		};
+		6A60C2EC1DDDA9100072FACD /* DemoControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A60C2CA1DDDA8770072FACD /* DemoHomeViewController.h */,
+				6A60C2CB1DDDA8770072FACD /* DemoHomeViewController.m */,
+				6A60C2CD1DDDA88E0072FACD /* DemoSideMenuOne.h */,
+				6A60C2CE1DDDA88E0072FACD /* DemoSideMenuOne.m */,
+				6A60C2D01DDDA89D0072FACD /* DemoSideMenuTwo.h */,
+				6A60C2D11DDDA89D0072FACD /* DemoSideMenuTwo.m */,
+				6A60C2D31DDDA8A90072FACD /* DemoSideMenuThree.h */,
+				6A60C2D41DDDA8A90072FACD /* DemoSideMenuThree.m */,
+				6A60C2D61DDDA8BF0072FACD /* DemoSideMenuFour.h */,
+				6A60C2D71DDDA8BF0072FACD /* DemoSideMenuFour.m */,
+			);
+			name = DemoControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A60C27F1DDD99400072FACD /* BTQuickApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A60C2AD1DDD99410072FACD /* Build configuration list for PBXNativeTarget "BTQuickApp" */;
+			buildPhases = (
+				6A60C27C1DDD99400072FACD /* Sources */,
+				6A60C27D1DDD99400072FACD /* Frameworks */,
+				6A60C27E1DDD99400072FACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTQuickApp;
+			productName = BTQuickApp;
+			productReference = 6A60C2801DDD99400072FACD /* BTQuickApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A60C2981DDD99410072FACD /* BTQuickAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A60C2B01DDD99410072FACD /* Build configuration list for PBXNativeTarget "BTQuickAppTests" */;
+			buildPhases = (
+				6A60C2951DDD99410072FACD /* Sources */,
+				6A60C2961DDD99410072FACD /* Frameworks */,
+				6A60C2971DDD99410072FACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A60C29B1DDD99410072FACD /* PBXTargetDependency */,
+			);
+			name = BTQuickAppTests;
+			productName = BTQuickAppTests;
+			productReference = 6A60C2991DDD99410072FACD /* BTQuickAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A60C2A31DDD99410072FACD /* BTQuickAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A60C2B31DDD99410072FACD /* Build configuration list for PBXNativeTarget "BTQuickAppUITests" */;
+			buildPhases = (
+				6A60C2A01DDD99410072FACD /* Sources */,
+				6A60C2A11DDD99410072FACD /* Frameworks */,
+				6A60C2A21DDD99410072FACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A60C2A61DDD99410072FACD /* PBXTargetDependency */,
+			);
+			name = BTQuickAppUITests;
+			productName = BTQuickAppUITests;
+			productReference = 6A60C2A41DDD99410072FACD /* BTQuickAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A60C2781DDD99400072FACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Balram;
+				TargetAttributes = {
+					6A60C27F1DDD99400072FACD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ZLY7X2N6SN;
+						ProvisioningStyle = Automatic;
+					};
+					6A60C2981DDD99410072FACD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A60C27F1DDD99400072FACD;
+					};
+					6A60C2A31DDD99410072FACD = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A60C27F1DDD99400072FACD;
+					};
+				};
+			};
+			buildConfigurationList = 6A60C27B1DDD99400072FACD /* Build configuration list for PBXProject "BTQuickApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A60C2771DDD99400072FACD;
+			productRefGroup = 6A60C2811DDD99400072FACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A60C27F1DDD99400072FACD /* BTQuickApp */,
+				6A60C2981DDD99410072FACD /* BTQuickAppTests */,
+				6A60C2A31DDD99410072FACD /* BTQuickAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A60C27E1DDD99400072FACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A60C2931DDD99400072FACD /* LaunchScreen.storyboard in Resources */,
+				6A60C2901DDD99400072FACD /* Assets.xcassets in Resources */,
+				6A60C28E1DDD99400072FACD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A60C2971DDD99410072FACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A60C2A21DDD99410072FACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A60C27C1DDD99400072FACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A60C2CC1DDDA8770072FACD /* DemoHomeViewController.m in Sources */,
+				6A60C2EA1DDDA9050072FACD /* LeftViewCell.m in Sources */,
+				6A60C2E71DDDA9050072FACD /* BTQuickAppController.m in Sources */,
+				6A60C2E81DDDA9050072FACD /* LGSideMenuController.m in Sources */,
+				6A60C2D21DDDA89D0072FACD /* DemoSideMenuTwo.m in Sources */,
+				6A60C2D81DDDA8BF0072FACD /* DemoSideMenuFour.m in Sources */,
+				6A60C2881DDD99400072FACD /* AppDelegate.m in Sources */,
+				6A60C2D51DDDA8A90072FACD /* DemoSideMenuThree.m in Sources */,
+				6A60C2E91DDDA9050072FACD /* UIViewController+LGSideMenuController.m in Sources */,
+				6A60C2EB1DDDA9050072FACD /* LeftViewController.m in Sources */,
+				6A60C2CF1DDDA88E0072FACD /* DemoSideMenuOne.m in Sources */,
+				6A60C2851DDD99400072FACD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A60C2951DDD99410072FACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A60C29E1DDD99410072FACD /* BTQuickAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A60C2A01DDD99410072FACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A60C2A91DDD99410072FACD /* BTQuickAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A60C29B1DDD99410072FACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A60C27F1DDD99400072FACD /* BTQuickApp */;
+			targetProxy = 6A60C29A1DDD99410072FACD /* PBXContainerItemProxy */;
+		};
+		6A60C2A61DDD99410072FACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A60C27F1DDD99400072FACD /* BTQuickApp */;
+			targetProxy = 6A60C2A51DDD99410072FACD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A60C28C1DDD99400072FACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A60C28D1DDD99400072FACD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A60C2911DDD99400072FACD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A60C2921DDD99400072FACD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A60C2AB1DDD99410072FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A60C2AC1DDD99410072FACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A60C2AE1DDD99410072FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZLY7X2N6SN;
+				INFOPLIST_FILE = BTQuickApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balram.products.BTQuickApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6A60C2AF1DDD99410072FACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZLY7X2N6SN;
+				INFOPLIST_FILE = BTQuickApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balram.products.BTQuickApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6A60C2B11DDD99410072FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTQuickAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balram.products.BTQuickAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTQuickApp.app/BTQuickApp";
+			};
+			name = Debug;
+		};
+		6A60C2B21DDD99410072FACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BTQuickAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balram.products.BTQuickAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTQuickApp.app/BTQuickApp";
+			};
+			name = Release;
+		};
+		6A60C2B41DDD99410072FACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTQuickAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balram.products.BTQuickAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTQuickApp;
+			};
+			name = Debug;
+		};
+		6A60C2B51DDD99410072FACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BTQuickAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.balram.products.BTQuickAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BTQuickApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A60C27B1DDD99400072FACD /* Build configuration list for PBXProject "BTQuickApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A60C2AB1DDD99410072FACD /* Debug */,
+				6A60C2AC1DDD99410072FACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A60C2AD1DDD99410072FACD /* Build configuration list for PBXNativeTarget "BTQuickApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A60C2AE1DDD99410072FACD /* Debug */,
+				6A60C2AF1DDD99410072FACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A60C2B01DDD99410072FACD /* Build configuration list for PBXNativeTarget "BTQuickAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A60C2B11DDD99410072FACD /* Debug */,
+				6A60C2B21DDD99410072FACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A60C2B31DDD99410072FACD /* Build configuration list for PBXNativeTarget "BTQuickAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A60C2B41DDD99410072FACD /* Debug */,
+				6A60C2B51DDD99410072FACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A60C2781DDD99400072FACD /* Project object */;
+}
